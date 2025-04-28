@@ -44,7 +44,7 @@ namespace DictionaryReview
         {
             foreach (var a in ages)
             {
-                Console.WriteLine($"{a.Key} is {a.Value} years old.");
+                Console.WriteLine(a.Key + " " + a.Value);
             }
         }
     }
